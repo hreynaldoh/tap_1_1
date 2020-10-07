@@ -10,8 +10,8 @@ public class Suma
     public static void main( String args[] )
     {
         // Obtiene la entrada del usuario de los diálogos de entrada de JOptionPane
-        String primerNumero = JOptionPane.showInputDialog( "Introduzca el primer entero:" );
-        String segundoNumero = JOptionPane.showInputDialog( "Introduzca el segundo entero:" );
+        String primerNumero = JOptionPane.showInputDialog( "Introduzca el primer  número entero:" );
+        String segundoNumero = JOptionPane.showInputDialog( "Introduzca el segundo número entero:" );
         
         // Convierte las entradas String en valores int para usarlos en un cálculo
         int numero1 = Integer.parseInt(primerNumero);
