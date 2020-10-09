@@ -1,4 +1,4 @@
-/**
+﻿/**
  *
  * @author hreynaldoh
  */
@@ -9,6 +9,9 @@ public class Suma
 {
     public static void main( String args[] )
     {
+	// Mensaje de bienvenida
+	JOptionPane.showMessageDialog( null, "Bienvenido...", "Bienvenido.", JOptionPane.PLAIN_MESSAGE );
+
         // Obtiene la entrada del usuario de los diálogos de entrada de JOptionPane
         String primerNumero = JOptionPane.showInputDialog( "Introduzca el primer  número entero:" );
         String segundoNumero = JOptionPane.showInputDialog( "Introduzca el segundo número entero:" );
@@ -21,5 +24,8 @@ public class Suma
 
         // Muestra los resultados en un diálogo de mensajes de JOptionPane
         JOptionPane.showMessageDialog( null, "La suma es " + suma, "Suma de dos enteros.", JOptionPane.PLAIN_MESSAGE );
+
+	//Mensaje de despedida
+	JOptionPane.showMessageDialog( null, "¡Que tengas un buen día!...", "Adiós.", JOptionPane.PLAIN_MESSAGE );
     }
 }
